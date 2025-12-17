@@ -1,0 +1,38 @@
+# Deep Learning Framework
+tensorflow>=2.12.0
+keras>=2.12.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Streamlit App
+streamlit>=1.28.0
+streamlit-chat>=0.1.1
+
+# Google Gemini AI
+google-generativeai>=0.3.0
+
+# Model Utilities
+tqdm>=4.65.0
+h5py>=3.9.0
+
+# Additional
+python-dotenv>=1.0.0
+albumentations>=1.3.0
+
+# Vision Transformers
+transformers>=4.30.0
+torch>=2.0.0
+torchvision>=0.15.0

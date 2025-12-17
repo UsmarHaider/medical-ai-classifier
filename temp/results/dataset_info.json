@@ -1,0 +1,140 @@
+{
+  "kidney_cancer": {
+    "name": "Kidney Cancer",
+    "modality": "CT Scan",
+    "classes": [
+      "Normal",
+      "Cyst",
+      "Tumor",
+      "Stone"
+    ],
+    "total_samples": 12446,
+    "train_samples": 9957,
+    "val_samples": 1244,
+    "test_samples": 1245,
+    "class_distribution": {
+      "Normal": 3078,
+      "Cyst": 3709,
+      "Tumor": 2283,
+      "Stone": 3376
+    }
+  },
+  "cervical_cancer": {
+    "name": "Cervical Cancer",
+    "modality": "Microscopy",
+    "classes": [
+      "Normal",
+      "Abnormal"
+    ],
+    "total_samples": 4021,
+    "train_samples": 3217,
+    "val_samples": 402,
+    "test_samples": 402,
+    "class_distribution": {
+      "Normal": 2165,
+      "Abnormal": 1856
+    }
+  },
+  "alzheimer": {
+    "name": "Alzheimer's Disease",
+    "modality": "MRI",
+    "classes": [
+      "NonDemented",
+      "VeryMildDemented",
+      "MildDemented",
+      "ModerateDemented"
+    ],
+    "total_samples": 6400,
+    "train_samples": 5120,
+    "val_samples": 640,
+    "test_samples": 640,
+    "class_distribution": {
+      "NonDemented": 3200,
+      "VeryMildDemented": 2240,
+      "MildDemented": 717,
+      "ModerateDemented": 243
+    }
+  },
+  "covid19": {
+    "name": "COVID-19",
+    "modality": "Chest X-Ray",
+    "classes": [
+      "Normal",
+      "COVID",
+      "Viral Pneumonia"
+    ],
+    "total_samples": 3616,
+    "train_samples": 2893,
+    "val_samples": 361,
+    "test_samples": 362,
+    "class_distribution": {
+      "Normal": 1341,
+      "COVID": 1200,
+      "Viral Pneumonia": 1075
+    }
+  },
+  "pneumonia": {
+    "name": "Pneumonia",
+    "modality": "Chest X-Ray",
+    "classes": [
+      "Normal",
+      "Pneumonia"
+    ],
+    "total_samples": 5856,
+    "train_samples": 4685,
+    "val_samples": 585,
+    "test_samples": 586,
+    "class_distribution": {
+      "Normal": 1583,
+      "Pneumonia": 4273
+    }
+  },
+  "tuberculosis": {
+    "name": "Tuberculosis",
+    "modality": "Chest X-Ray",
+    "classes": [
+      "Normal",
+      "Tuberculosis"
+    ],
+    "total_samples": 4200,
+    "train_samples": 3360,
+    "val_samples": 420,
+    "test_samples": 420,
+    "class_distribution": {
+      "Normal": 2100,
+      "Tuberculosis": 2100
+    }
+  },
+  "monkeypox": {
+    "name": "Monkeypox",
+    "modality": "Skin Image",
+    "classes": [
+      "Normal",
+      "Monkeypox"
+    ],
+    "total_samples": 2142,
+    "train_samples": 1714,
+    "val_samples": 214,
+    "test_samples": 214,
+    "class_distribution": {
+      "Normal": 1071,
+      "Monkeypox": 1071
+    }
+  },
+  "malaria": {
+    "name": "Malaria",
+    "modality": "Microscopy",
+    "classes": [
+      "Uninfected",
+      "Parasitized"
+    ],
+    "total_samples": 27558,
+    "train_samples": 22046,
+    "val_samples": 2756,
+    "test_samples": 2756,
+    "class_distribution": {
+      "Uninfected": 13779,
+      "Parasitized": 13779
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "experiment_date": "2025-12-17",
+  "total_datasets": 8,
+  "total_models": 5,
+  "best_overall_model": "ViT",
+  "average_accuracy_per_model": {
+    "Custom_CNN": 0.9288,
+    "VGG16": 0.9528,
+    "ResNet50": 0.9654,
+    "InceptionV3": 0.9605,
+    "ViT": 0.9715
+  },
+  "best_accuracy_per_dataset": {
+    "kidney_cancer": {
+      "model": "ViT",
+      "accuracy": 0.9756
+    },
+    "cervical_cancer": {
+      "model": "ViT",
+      "accuracy": 0.9689
+    },
+    "alzheimer": {
+      "model": "ViT",
+      "accuracy": 0.9523
+    },
+    "covid19": {
+      "model": "ViT",
+      "accuracy": 0.9712
+    },
+    "pneumonia": {
+      "model": "ViT",
+      "accuracy": 0.9756
+    },
+    "tuberculosis": {
+      "model": "ViT",
+      "accuracy": 0.9789
+    },
+    "monkeypox": {
+      "model": "ViT",
+      "accuracy": 0.9626
+    },
+    "malaria": {
+      "model": "ViT",
+      "accuracy": 0.9867
+    }
+  }
+}
